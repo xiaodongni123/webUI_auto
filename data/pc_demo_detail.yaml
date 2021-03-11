@@ -1,0 +1,6 @@
+from selenium.webdriver.common.by import By
+demo_detail_001:
+  expect: "7天，从拒赔到协议赔付27万！理赔专家教你如何通过专业谈判实现“逆转”"
+
+demo_detail_002:
+  expect: "滴滴司机凌晨猝死，重疾意外均遭拒赔，平台助家属拿回11万"

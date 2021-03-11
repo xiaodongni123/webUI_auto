@@ -1,0 +1,36 @@
+login_001:
+  title: "用户名正确，密码为空，提示请输入密码"
+  username: "admin"
+  password: ""
+  loc: ".ant-form-explain"
+  expect: "Please enter your password!"
+
+login_002:
+  title: "用户名为空，密码正确，提示请输如用户名"
+  username: ""
+  password: "12345"
+  loc: ".ant-form-explain"
+  expect: "Please enter your userName!"
+
+login_003:
+  title: "用户名正确，密码错误，提示用户名或密码输入错误"
+  username: "admin"
+  password: "12345"
+  loc: "//span[text()='用户名或密码输入错误']"
+  expect: "用户名或密码输入错误"
+
+login_004:
+  title: "用户名错误，密码正确，提示用户名或密码输入错误"
+  username: "admi"
+  password: "111111"
+  loc: "//span[text()='用户名或密码输入错误']"
+  expect: "用户名或密码输入错误"
+
+login_005:
+  title: "用户名和密码正确，登录成功"
+  username: "admin"
+  password: "111111"
+  loc: "//span[text()='系统管理员']"
+  expect: "系统管理员"
+
+
